@@ -1,0 +1,29 @@
+@import 'scss/_mixins.scss';
+
+.atributos {
+    @include tabela;    
+
+    h3 {
+        text-align: center;
+        align-self: center;
+    }
+
+    div {
+        background-color: #000;
+        padding: 0.5em;
+        text-align: center;
+        color: #fae2ae;
+        border: 1px solid #000;
+
+        width: 60px;
+
+        .abv {
+            font-weight: 700;
+        }
+
+        .nome {
+            font-size: 12px;
+        }
+
+    }
+}

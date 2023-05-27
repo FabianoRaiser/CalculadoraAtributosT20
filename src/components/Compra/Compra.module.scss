@@ -1,0 +1,38 @@
+@import 'scss/_mixins.scss';
+@import 'scss/_variaveis.scss';
+
+.compra {
+    @include tabela;
+
+    .cabecalho {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 2.5em;
+
+        h3 {
+            text-align: center;
+            align-self: center;
+        }
+
+        .pontos {
+            flex-direction: column;
+            border: 1px solid $cor-destaque;
+            background-color: $cor-destaque;
+            color: $cor-bg;
+            gap: 0.5em;
+            padding: 1.5px 0.5em;
+            
+            .pool {
+                font-size: 24px;
+                font-weight: 700;
+            }
+
+            .text {
+                font-size: 12px;
+            }
+        }
+
+    }
+
+}

@@ -1,0 +1,28 @@
+@import 'scss/_mixins.scss';
+@import 'scss/_variaveis.scss';
+
+.total {
+    @include tabela;
+
+    .titulo {
+        text-align: center;
+        align-self: center;
+        margin-left: 28px;
+        color: $cor-destaque;
+    }
+
+    .atributo {
+        @include campoAtri;
+        border-color: $cor-destaque;
+        background-color: $cor-destaque;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        span {
+            font-size: 24px;
+            font-weight: 700;
+            color: $cor-bg;
+        }
+    }
+}

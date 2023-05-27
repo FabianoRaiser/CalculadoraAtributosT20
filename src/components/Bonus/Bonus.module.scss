@@ -1,0 +1,23 @@
+@import 'scss/_mixins.scss';
+
+.bonus {
+    @include tabela;
+
+    .titulo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h3 {
+            margin-left: 24px;
+        }
+    }
+
+    .atributo {
+        @include campoAtri;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

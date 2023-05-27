@@ -1,0 +1,26 @@
+@import 'scss/_variaveis.scss';
+
+.inputRaca {
+    background: none;
+    font-size: 1em;
+    width: 10rem;
+    text-align: center;
+    padding: 4px;
+
+    border-color: inherit;
+    border: none;
+    border-bottom: 1px solid $cor-principal;
+
+    font-family: $font-principal;
+
+    appearance: none;
+
+    &:hover,:focus {
+        appearance: auto;
+    }
+
+    option {
+        background-color: $cor-bg;
+        border: none;
+    }
+}

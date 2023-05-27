@@ -1,0 +1,37 @@
+.inputBonus {
+    display: flex;
+    align-items: center;
+    
+    span {
+        width: 120px;
+        padding: 0.35em 1.32em;
+        
+        align-items: center;
+        justify-content: flex-end;
+    
+        border: 1px solid #000;
+
+        font-size: 24px;
+        justify-self: center;
+    }
+
+}
+.botoes {
+    margin-left: 0.25em;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    opacity: 0;
+    transition: opacity 0.5s;
+    
+    &:hover {
+        opacity: 1;
+    }
+    
+    .botao {
+        cursor: pointer;
+        border: none;
+        background: none;
+    }
+}

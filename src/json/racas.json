@@ -1,0 +1,94 @@
+{
+    "racas": [
+        {
+            "nome": "Humano",
+            "id": "rac__1",
+            "modAtribut": "+1 em Três Atributos Diferentes."
+        },
+        {
+            "nome": "Anão",
+            "id": "rac__2",
+            "modAtribut": "Constituição +2, Sabedoria +1, Destreza -1."
+        },
+        {
+            "nome": "Dahllan",
+            "id": "rac__3",
+            "modAtribut": "Sabedoria +2, Destreza +1, Inteligência -1."
+        },
+        {
+            "nome": "Elfo",
+            "id": "rac__4",
+            "modAtribut": "Inteligência +2, Destreza +1, Constituição -1."
+        },
+        {
+            "nome": "Goblin",
+            "id": "rac__5",
+            "modAtribut": "Destreza +2, Inteligência +1, Carisma -1"
+        },
+        {
+            "nome": "Lefou",
+            "id": "rac__6",
+            "modAtribut": "+1 em Três Atributos Diferentes (exceto Carisma), Carisma -1."
+        },
+        {
+            "nome": "Minotauro",
+            "id": "rac__7",
+            "modAtribut": "Força +2, Constituição +1, Sabedoria -1."
+        },
+        {
+            "nome": "Qareen",
+            "id": "rac__8",
+            "modAtribut": "Carisma +2, Inteligência +1, Sabedoria -1."
+        },
+        {
+            "nome": "Golem",
+            "id": "rac__9",
+            "modAtribut": "Força +2, Constituição +1, Carisma -1."
+        },
+        {
+            "nome": "Hynne",
+            "id": "rac__10",
+            "modAtribut": "Destreza +2, Carisma +1, Força -1."
+        },
+        {
+            "nome": "Kliren",
+            "id": "rac__11",
+            "modAtribut": "Inteligência +2, Carisma +1, Força -1."
+        },
+        {
+            "nome": "Medusa",
+            "id": "rac__12",
+            "modAtribut": "Destreza +2, Carisma +1."
+        },
+        {
+            "nome": "Osteon",
+            "id": "rac__13",
+            "modAtribut": "+1 em Três Atributos Diferentes (exceto Constituição), Constituição -1."
+        },
+        {
+            "nome": "Sereia/Tritão",
+            "id": "rac__14",
+            "modAtribut": "+1 em Três Atributos Diferentes."
+        },
+        {
+            "nome": "Sílfide",
+            "id": "rac__15",
+            "modAtribut": "Carisma +2, Destreza +1, Força -2."
+        },
+        {
+            "nome": "Suraggel (Aggelus)",
+            "id": "rac__16",
+            "modAtribut": "Sabedoria +2, Carisma +1"
+        },
+        {
+            "nome": "Suraggel (Sulfure)",
+            "id": "rac__17",
+            "modAtribut": "Destreza +2, Inteligência +1"
+        },
+        {
+            "nome": "Trog",
+            "id": "rac__18",
+            "modAtribut": "Constituição +2, Força +1, Inteligência -1."
+        }
+    ]
+}
